@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListboxTabNavigationBug", "ListboxTabNavigationBug\ListboxTabNavigationBug\ListboxTabNavigationBug.csproj", "{05EEB36C-21D2-4DD6-8C2E-947B62FCBA90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListboxTabNavigationBug.Android", "ListboxTabNavigationBug\ListboxTabNavigationBug.Android\ListboxTabNavigationBug.Android.csproj", "{4B639157-FCBC-49A7-ADBF-537197BA4399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListboxTabNavigationBug.Desktop", "ListboxTabNavigationBug\ListboxTabNavigationBug.Desktop\ListboxTabNavigationBug.Desktop.csproj", "{CA5C57B4-A871-4482-8632-E4D3257B3FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListboxTabNavigationBug.iOS", "ListboxTabNavigationBug\ListboxTabNavigationBug.iOS\ListboxTabNavigationBug.iOS.csproj", "{947C1DF8-5864-478E-876D-9AD70FEAB1BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListboxTabNavigationBug.Browser", "ListboxTabNavigationBug\ListboxTabNavigationBug.Browser\ListboxTabNavigationBug.Browser.csproj", "{80D60A27-4E96-490C-B631-6E4D79A33845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05EEB36C-21D2-4DD6-8C2E-947B62FCBA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EEB36C-21D2-4DD6-8C2E-947B62FCBA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EEB36C-21D2-4DD6-8C2E-947B62FCBA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EEB36C-21D2-4DD6-8C2E-947B62FCBA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B639157-FCBC-49A7-ADBF-537197BA4399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B639157-FCBC-49A7-ADBF-537197BA4399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B639157-FCBC-49A7-ADBF-537197BA4399}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4B639157-FCBC-49A7-ADBF-537197BA4399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B639157-FCBC-49A7-ADBF-537197BA4399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B639157-FCBC-49A7-ADBF-537197BA4399}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CA5C57B4-A871-4482-8632-E4D3257B3FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5C57B4-A871-4482-8632-E4D3257B3FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5C57B4-A871-4482-8632-E4D3257B3FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5C57B4-A871-4482-8632-E4D3257B3FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947C1DF8-5864-478E-876D-9AD70FEAB1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947C1DF8-5864-478E-876D-9AD70FEAB1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947C1DF8-5864-478E-876D-9AD70FEAB1BA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{947C1DF8-5864-478E-876D-9AD70FEAB1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947C1DF8-5864-478E-876D-9AD70FEAB1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947C1DF8-5864-478E-876D-9AD70FEAB1BA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{80D60A27-4E96-490C-B631-6E4D79A33845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D60A27-4E96-490C-B631-6E4D79A33845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D60A27-4E96-490C-B631-6E4D79A33845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D60A27-4E96-490C-B631-6E4D79A33845}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45D2121E-394C-4AA1-85EA-B4EDB24D2DC8}
+	EndGlobalSection
+EndGlobal
