@@ -15,9 +15,9 @@
 	<Grid RowDefinitions="Auto,*">
 		
 			<Button Content="Press for new list" Command="{Binding NewList}" Grid.Row="0"/>
-			<ListBox Items="{Binding TestObjects}" SelectionMode="AlwaysSelected,Single"
+			<ListBox ItemsSource="{Binding TestObjects}" SelectionMode="AlwaysSelected,Single"
 					 KeyboardNavigation.TabNavigation="Once"
-					 Grid.Row="1">
+					 Grid.Row="1" >
 				
 				<ListBox.DataTemplates>
 					<DataTemplate x:DataType="vm:TestObject">
